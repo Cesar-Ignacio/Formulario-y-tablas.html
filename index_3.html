@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Pagina Web</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="img/ico" href="imagen/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/estilo_3.css">
+
+</head>
+<body>
+  
+ <h1>Menu</h1>
+ <ol>
+     <li><a href="index.html">Tabla 0</a>
+         <a href="index_1.html">Tabla 1</a>
+         <a href="index_2.html">Tabla 2</a>
+     </li>
+ </ol>
+
+
+  <form method="get">
+
+	 <table align="center">
+	  <!--Primera linea -->
+	 <tr>
+	 	<th>Step 1: tu información</th>
+	 </tr>	
+     
+	 <tr>
+	     <td>Name
+        <input type="text" id="i_1" 
+        name="nombre" value="" placeholder="primer nomnbre" required="" > 
+	     </td>
+	    
+	 </tr>
+     
+	 <tr>
+	 	<td>Email
+	 	<input type="email" id="i_2"name="gmail" placeholder="ejemplo@dominio.com" required=""></td>
+
+	 </tr>	
+
+	 <tr>
+	 	<td>Phone
+        <input type="number" id="i_3"name="numero" placeholder="EJ. 00+" required=""></td>
+
+	 </tr>
+	 <!--Segundo cuadro-->
+	 <tr>
+	 	<th>Step 2: Delivery address</th>
+	 </tr>
+     
+     <tr>
+     	<td>Adrress
+     	<textarea name="Adrress"id="i_4"></textarea></td>
+     </tr>
+     <tr>
+     	<td>Post code
+     	<input type="text"id="i_5" name="post c" required=""></td>
+     </tr>
+     <tr>
+     	<td>Country
+     	<input type="text" id="i_6"name="coutr" required=""></td>
+     </tr>
+
+     <!--Tercer cuadro-->
+     <tr>
+     	<th>Step 3: Card details</th>
+     </tr> 
+     <tr>
+     	<td>Card type
+     		<br>
+     	<input type="radio" name="card" id="i_7" checked="" value="visa"><img src="imagen/visa.ico" align="center">VISA
+     		<input type="radio" name="card" value="AMEX"><img src="imagen/visa.ico" align="center">AMEX 
+     		<input type="radio" name="card" value="mastercard"><img src="imagen/visa.ico" align="center"> Mastercard
+     	</td>
+     </tr>
+
+     <tr>
+        <td>Card number
+        	<input type="number" id="i_8"  name="n_card" required=""></td>	 
+     </tr>
+ 
+     <tr>
+     	<td>Security code
+     	<input type="text" id="i_9" name="s_c" required=""></td>
+     </tr>
+
+     <tr>
+     	<td>Name on card
+     	<input type="text" id="i_10" name="nom_card" required="" placeholder="Exact name as on the card"></td>
+    </tr>
+    <tr>
+    	<td id="enviar"align="center"><input type="submit" name=""></td>
+    </tr> 
+
+	 </table>
+</form>
+     
+
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+
+table
+{
+ border-collapse: collapse;
+ border-style: solid;
+ border-color: black;
+ border-width: 2px;
+ width: 400px;
+ text-align: center;
+
+
+}
+
+td,th
+{
+  border-style: solid;
+  border-width: 2px;
+  line-height: 20px;
+  
+}
+
+thead, tfoot{
+    background: #F57F1C;
+	
+}
+
+#p_1
+{
+	background:#0F90D1; 
+}
+#s_2
+{
+	background:#2DB0D6;
+}
+
+#div_2
+{
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+  background: #97C19A;
+}
+
+form
+{
+ text-align: center;
+
+}
+
+input
+{
+	background:#B7AF78;
+	border-radius: 5px;
+	border-style: ridge; 
+	border-color: red;
+}
+button{
+	margin-bottom: 10px;
+}

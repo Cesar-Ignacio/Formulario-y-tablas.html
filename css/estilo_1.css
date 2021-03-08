@@ -1,0 +1,96 @@
+
+
+
+table{
+    border-collapse: collapse;
+
+    border-style: ridge;
+    caption-side: left;
+}
+
+td{
+	
+	border-style: solid;
+	border-width: 1px;
+}
+
+form{
+	text-align: center;
+}
+.form{
+	background: #8A8585
+}
+
+h2{
+	color: green;
+	
+}
+label{
+	color: red;
+}
+input
+{
+	font-family: fantasy;
+}
+
+a:link
+{
+	color: red;
+}
+a:visited
+{
+	color: blue;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: red;
+}
+
+#p_1{
+	font-family: cambria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+#p_2{
+    
+    font-size: 20px;
+	font-style:initial;
+	font-weight: normal;
+	font-family: verdana;
+	color:green;
+	direction:ltr;
+	letter-spacing: 5px;
+	line-height: 40px;
+	text-align: justify;
+	text-decoration:none;
+	text-indent: 35px;
+	word-spacing:5px;
+	border-style:ridge;
+	border-top-style:dotted;
+    border-color: red;
+    border-top-color:green;
+    border-width: medium;
+    border-left-width: 10px; 
+    border-radius: 20px;
+    box-shadow: 5px 10px #888888;
+   
+}
+
+ul
+{
+
+	list-style-position: inside;
+	list-style-type: upper-roman;
+}
+
+.imge{
+	background: #333333;
+	background-image: url(../imagen/descarga.jpg);
+	background-position: center;
+	background-repeat: repeat;
+	background-origin: padding-box;
+	background-size: 50px;
+}
